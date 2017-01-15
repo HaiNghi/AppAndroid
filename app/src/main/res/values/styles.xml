@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TimeValueTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">@dimen/activity.play.textview.time.width</item>
+        <item name="android:text">@string/textview.play.activity.text_default_time_value</item>
+        <item name="android:textSize">@dimen/size_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/activity.play.textview.time.margin</item>
+        <item name="android:layout_marginBottom">@dimen/activity.play.textview.time.margin</item>
+    </style>
+
+    <style name="NavigationTheme" parent="AppTheme">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginBottom">02dp</item>
+    </style>
+
+
+    <style name="CheckBox" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorControlNormal">#fff</item>   <!-- normal border color change as you wish -->
+        <item name="colorControlActivated">#fff</item> <!-- activated color change as you wish -->
+    </style>
+</resources>
